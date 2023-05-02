@@ -1,0 +1,40 @@
+[
+    {
+        "nome": "Hugo Pontes",
+        "oab": "OAB/RJ 213.573",
+        "imagem1": "https://pontesebritto.adv.br/wp-content/uploads/2022/09/hugo.png",
+        "imagem2": "https://pontesebritto.adv.br/wp-content/uploads/2022/09/hugo2.png",
+        "areaatuacao": "Trabalhista e Cível",
+        "shortdesc": "Advogado especialista em Direito do Trabalho, pós graduado e membro da comissão de Direitos Humanos e Assistência Jurídica da OAB/RJ.",
+        "longdesc": "Responsável pela área trabalhista do escritório desde 2017, é reconhecido por sua atuação e criação de estratégias no contencioso, além de ampla experiência em assessoramento preventivo. \n\n A expertise de Hugo Pontes também inclui consultoria em questões que envolvem contratação e rescisão de contratos, prevenção de responsabilidades trabalhistas, questões de saúde e segurança, aspectos de conformidade, privacidade de dados e mídias sociais. É membro da Comissão de Assistência Judiciária da OAB/RJ e ex-diretor do Núcleo de Pesquisas Brasil-Chile, junto à Associação Comercial do Rio. Iniciou sua carreira jurídica com períodos de experiências na Defensoria Pública do Estado do Rio de Janeiro e na Procuradoria Geral da UERJ.",
+        "email": "hugo@pontesebritto.adv.br",
+        "telefone": "+55 21 98664-7284",
+        "id": 1
+    },
+
+    {
+        "nome": "Bruno Britto",
+        "oab": "OAB/RJ 223.463",
+        "imagem1": "https://pontesebritto.adv.br/wp-content/uploads/2022/09/bruno.png",
+        "imagem2": "https://pontesebritto.adv.br/wp-content/uploads/2022/09/bruno2.png",
+        "areaatuacao": "Cível, Consumidor e Direito Digital",
+        "shortdesc": "Advogado especialista em Direito Digital, pós graduado pela Universidade Cândido Mendes.",
+        "longdesc": "Bruno Britto possui experiência com contratos cíveis, como de seguro de vida e de saúde, contratos bancários, contratos de prestação de serviços, bem como os de assuntos empresariais.\n\n Bruno também foca a sua atuação em assuntos de cybersecurity e proteção de dados pessoais, auxiliando clientes com demandas que incluem, entre outas atividades, mapeamento de fluxo de dados, a elaboração, análise e revisão de termos de uso e políticas de privacidade, revisão e ajustes às políticas internas. \n\n Possui formação complementar em Direito Digital, Compliance e inovação no Direito pela Fundação Getúlio Vargas.",
+        "email": "bruno@pontesebritto.adv.br",
+        "telefone": "+55 21 99643-3372",
+        "id": 2
+    },
+
+    {
+        "nome": "Marcos Davi",
+        "oab": "OAB/RJ 69.467",
+        "imagem1": "https://pontesebritto.adv.br/wp-content/uploads/2022/10/paihugopretoebranco-300x292.jpg",
+        "imagem2": "https://pontesebritto.adv.br/wp-content/uploads/2022/10/paihugo.jpeg",
+        "areaatuacao": "Trabalhista",
+        "shortdesc": "Advogado com décadas de experiência em Direito Trabalhista.\nMembro da CJT/OABRJ, do SAERJ e do MATI.",
+        "longdesc": "Responsável pela operação de fusão do escritório que ampliou a oferta de serviços jurídicos e benefíciou centenas de clientes.\n\n Marcos Davi é advogado pós graduado especialista em Direito do Trabalho há mais de 33 anos. Durante todo esse período, construiu uma relação de amizade e confiança com todos ao seu redor, o que se confirma com aqueles que representa há décadas.\n\n Atende todas as classes de trabalhadores com profunda experiência e domínio técnico, tendo obtido o reconhecimento da sociedade ao ser nomeado membro da CJT/OABRJ, do SAERJ e do MATI.",
+        "email": "marcos@pontesebritto.adv.br",
+        "telefone": "+55 21 97275-0395",
+        "id": 3
+    }
+]
