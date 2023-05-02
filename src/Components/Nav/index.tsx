@@ -76,7 +76,7 @@ let styles = {
 
         </div>
 
-        {/* ##### MOBILE ###### */}
+        {/* ##### MOBILE ########## */}
 
         <div className='md:hidden'>
             <Menu right width={'80%'} styles={styles} isOpen={false}>
