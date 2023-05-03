@@ -5,6 +5,7 @@ import { AreasAtuacao } from 'Pages/AreasAtuacao'
 import { Contato } from 'Pages/Contato'
 import { Banner } from 'Components/Banner'
 import ScrollToTop from 'Components/ScrollToTop'
+import { NotFound } from 'Components/NotFound'
 
 export const AppRouter = () => {
     return(
