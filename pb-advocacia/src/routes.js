@@ -17,6 +17,7 @@ export const AppRouter = () => {
                     <Route path='areas-de-atuacao' element={<AreasAtuacao/>}/>
                     <Route path='contato' element={<Contato/>}/>
                 </Route>
+            <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
     )
