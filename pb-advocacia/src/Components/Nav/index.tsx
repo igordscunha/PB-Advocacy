@@ -76,15 +76,15 @@ let styles = {
 
         </div>
 
-        {/* ##### MOBILE ########## */}
+        {/* ##### MOBILE ###### */}
 
         <div className='md:hidden'>
             <Menu right width={'80%'} styles={styles} isOpen={false}>
 
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="sobre" className="menu-item" href="/about">Sobre</a>
-                <a id="areas" className="menu-item" href="/contact">Áreas de Atuação</a>
-                <a id="contato" className="menu-item--small" href="">Contato</a>
+                <Link to='/' id="home" className="menu-item">Home</Link>
+                <Link to='/sobre' id="sobre" className="menu-item">Sobre</Link>
+                <Link to='/areas-de-atuacao' id="areas" className="menu-item">Áreas de Atuação</Link>
+                <Link to='/contato' id="contato" className="menu-item--small">Contato</Link>
 
             </Menu>
         </div>
