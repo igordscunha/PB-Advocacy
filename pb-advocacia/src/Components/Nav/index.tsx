@@ -63,7 +63,7 @@ let styles = {
 
     return (
         <>
-        <div className="hidden md:flex pt-10 pl-16 md:justify-evenly absolute z-10 w-full">
+        <div className="hidden md:flex pt-2 pl-16 md:justify-evenly absolute z-10 w-full">
 
             <div>
                 <Link to='/'><img className='cursor-pointer relative' width={180} src={Logo} alt='logo'/></Link>
