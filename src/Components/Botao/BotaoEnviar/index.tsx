@@ -2,7 +2,6 @@ import { ReactElement } from "react"
 
 interface BotaoEnviarProps {
     children: ReactElement | string
-    //mensagem: FormEventHandler<HTMLButtonElement>
 }
 
 export const BotaoEnviar = ({children}: BotaoEnviarProps) => {

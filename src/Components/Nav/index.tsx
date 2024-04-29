@@ -63,7 +63,7 @@ let styles = {
 
     return (
         <>
-        <div className="hidden md:flex pt-10 pl-16 md:justify-evenly absolute z-10 w-full">
+        <div className="hidden md:flex pt-2 pl-16 md:justify-evenly absolute z-10 items-center w-full">
 
             <div>
                 <Link to='/'><img className='cursor-pointer relative' width={180} src={Logo} alt='logo'/></Link>
@@ -76,15 +76,15 @@ let styles = {
 
         </div>
 
-        {/* ##### MOBILE ########## */}
+        {/* ##### MOBILE ###### */}
 
         <div className='md:hidden'>
             <Menu right width={'80%'} styles={styles} isOpen={false}>
 
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="sobre" className="menu-item" href="/about">Sobre</a>
-                <a id="areas" className="menu-item" href="/contact">Áreas de Atuação</a>
-                <a id="contato" className="menu-item--small" href="">Contato</a>
+                <Link to='/' id="home" className="menu-item">Home</Link>
+                <Link to='/sobre' id="sobre" className="menu-item">Sobre</Link>
+                <Link to='/areas-de-atuacao' id="areas" className="menu-item">Áreas de Atuação</Link>
+                <Link to='/contato' id="contato" className="menu-item--small">Contato</Link>
 
             </Menu>
         </div>

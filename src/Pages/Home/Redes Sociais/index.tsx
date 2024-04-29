@@ -12,18 +12,18 @@ export const RedesSociais = () => {
             </div>
 
             <div className="flex flex-col gap-8 items-center md:hidden">
-                <img className="rounded-2xl shadow-xl w-1/2 cursor-pointer" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-152602-300x300.png' alt='rede social1'/>
-                <img className="rounded-2xl shadow-xl w-1/2 cursor-pointer" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-152132-300x300.png' alt='rede social2'/>
-                <img className="rounded-2xl shadow-xl w-1/2 cursor-pointer" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-153346-300x300.png' alt='rede social3'/>
+                <img className="rounded-2xl shadow-xl w-1/2 cursor-pointer" src='/public/images/redesocial5.png' alt='rede social1'/>
+                <img className="rounded-2xl shadow-xl w-1/2 cursor-pointer" src='/public/images/redesocial3.png' alt='rede social2'/>
+                <img className="rounded-2xl shadow-xl w-1/2 cursor-pointer" src='/public/images/redesocial6.png' alt='rede social3'/>
             </div>
 
             <div className="hidden md:grid grid-cols-3 grid-rows-2 justify-items-center gap-12 md:pb-24">
-                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:translate-y-2 md:transition-transform" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-152132-300x300.png' alt='rede social2'/>
-                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:translate-y-2 md:transition-transform" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-153346-300x300.png' alt='rede social3'/>
-                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:translate-y-2 md:transition-transform" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-152818-300x300.png' alt='rede social4'/>
-                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:-translate-y-2 md:transition-transform" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-151618-300x300.png' alt='rede social5'/>
-                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:-translate-y-2 md:transition-transform" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-152602-300x300.png' alt='rede social1'/>
-                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:-translate-y-2 md:transition-transform" src='https://pontesebritto.adv.br/wp-content/uploads/2022/09/Captura-de-tela-2022-09-29-152439-300x300.png' alt='rede social6'/>
+                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:translate-y-2 md:transition-transform" src='/public/images/redesocial3.png' alt='rede social2'/>
+                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:translate-y-2 md:transition-transform" src='/public/images/redesocial6.png' alt='rede social3'/>
+                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:translate-y-2 md:transition-transform" src='/public/images/redesocial2.png' alt='rede social4'/>
+                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:-translate-y-2 md:transition-transform" src='/public/images/redesocial4.png' alt='rede social5'/>
+                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:-translate-y-2 md:transition-transform" src='/public/images/redesocial5.png' alt='rede social1'/>
+                <img className="rounded-2xl shadow-xl cursor-pointer md:hover:-translate-y-2 md:transition-transform" src='/public/images/redesocial1.png' alt='rede social6'/>
             </div>
             
         </section>

@@ -1,6 +1,7 @@
 # P&B Advocacia by Igor Cunha
 
-Replica of a responsive website for a law firm made by me.
+Responsive website for a fictitious law firm.
+
 
 ## ReactJS and TypeScript.
 
