@@ -6,7 +6,7 @@ export const AreasAtuacao = () => {
             </div>
             <div className="md:flex md:gap-16 md:justify-center md:py-24">
                 <div className="flex flex-col items-center md:cursor-pointer md:hover:scale-125 md:transition-transform">
-                    <img className="rounded-3xl shadow-xl mt-16 w-1/3 md:w-full" src='/images/civil.png' alt='civil'/>
+                    <img className="rounded-3xl shadow-xl mt-16 w-1/3 md:w-full" src='/images/civil.jpg' alt='civil'/>
                     <h4 className="text-2xl text-white pt-4 uppercase">Civil</h4>
                 </div>
 

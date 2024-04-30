@@ -14,7 +14,7 @@ export const Rodape = () => {
                     </ul>
                 </div>
                 <div className="flex justify-center">
-                    <img className="w-3/5" src="https://pontesebritto.adv.br/wp-content/uploads/2022/09/1-1-300x196.png" alt='logorodape'/>
+                    <img className="w-3/5" src="/images/logorodape.png" alt='logorodape'/>
                 </div>
                 <div className="flex flex-col gap-2 cursor-default select-none">
                     <span>{socios[0].oab}</span>
