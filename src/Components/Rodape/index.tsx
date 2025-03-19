@@ -13,9 +13,6 @@ export const Rodape = () => {
                         <Link to='/contato'><span className="cursor-pointer hover:text-yellow-300"><li>Contato</li></span></Link>
                     </ul>
                 </div>
-                <div className="flex justify-center">
-                    <img className="w-3/5" src="/images/logorodape.png" alt='logorodape'/>
-                </div>
                 <div className="flex flex-col gap-2 cursor-default select-none">
                     <span>{socios[0].oab}</span>
                     <span>{socios[1].oab}</span>
