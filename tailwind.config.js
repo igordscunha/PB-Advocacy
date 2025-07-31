@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         'azul-pb': '#012E40',
         'verde-zap': '#25d366',
-        'bg-branco': '#ededed'
+        'bg-branco': '#ededed',
+        'azul-claro': '#025374'
       }
     },
   },

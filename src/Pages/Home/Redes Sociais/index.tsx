@@ -1,6 +1,6 @@
 export const RedesSociais = () => {
     return(
-        <section className="p-12 bg-bg-branco">
+        <section className="p-12 bg-bg-branco md:px-40">
             <div className="flex justify-center">
                 <h2 className="text-4xl font-semibold w-fit text-azul-pb border-b-2 border-amber-400 md:text-7xl">Redes Sociais</h2>
             </div>

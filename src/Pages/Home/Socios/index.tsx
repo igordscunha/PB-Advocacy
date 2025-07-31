@@ -2,8 +2,10 @@ import socios from "Data/socios.json"
 
 export const Socios = () => {
     return(
-        <section className="p-12 bg-bg-branco">
-            <h2 className="text-4xl font-semibold ml-6 md:ml-16 w-fit text-azul-pb border-b-2 border-amber-400 md:text-7xl md:mb-24">Os Sócios</h2>
+        <section className="p-12 bg-bg-branco md:px-40">
+            <div className="flex justify-center">
+                <h2 className="text-4xl font-semibold w-fit text-azul-pb border-b-2 border-amber-400 md:text-7xl md:mb-24">Os Sócios</h2>
+            </div>
             
             {/* ##### MOBILE ##### */}
             <div className="md:hidden">
@@ -37,7 +39,7 @@ export const Socios = () => {
             <div className="hidden md:grid grid-cols-3 gap-2 justify-items-center">
                 <div className="text-azul-pb py-12 w-3/5">
                     <h3 className="text-2xl font-bold pb-4">{socios[0].nome}</h3>
-                    <img className="rounded-3xl shadow-lg" src={socios[0].imagem1} alt={socios[0].nome}/>
+                    <img className="rounded-lg shadow-lg" src={socios[0].imagem1} alt={socios[0].nome} height={300}/>
                     <p className="py-6">{socios[0].oab}<br/>
                         {socios[0].shortdesc}
                     </p>
@@ -45,7 +47,7 @@ export const Socios = () => {
 
                 <div className="text-azul-pb py-12 w-3/5">
                     <h3 className="text-2xl font-bold pb-4">{socios[1].nome}</h3>
-                    <img className="rounded-3xl shadow-lg" src={socios[1].imagem1} alt={socios[1].nome}/>
+                    <img className="rounded-lg shadow-lg" src={socios[1].imagem1} alt={socios[1].nome} height={300}/>
                     <p className="py-6">{socios[1].oab}<br/>
                         {socios[1].shortdesc}
                     </p>
@@ -53,7 +55,7 @@ export const Socios = () => {
 
                 <div className="text-azul-pb py-12 w-3/5">
                     <h3 className="text-2xl font-bold pb-4">{socios[2].nome}</h3>
-                    <img className="rounded-3xl shadow-lg" src={socios[2].imagem1} alt={socios[2].nome}/>
+                    <img className="rounded-lg shadow-lg" src={socios[2].imagem1} alt={socios[2].nome} height={300}/>
                     <p className="py-6">{socios[2].oab}<br/>
                         {socios[2].shortdesc}
                     </p>

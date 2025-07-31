@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export const Rodape = () => {
     return(
-        <section className="bg-azul-pb py-12">
+        <section className="bg-gradient-to-b from-azul-pb to-azul-claro py-24">
             <div className="text-yellow-500 flex flex-col items-center gap-8 md:flex-row md:justify-between md:px-12">
                 <div>
                     <ul className="flex flex-col gap-2">

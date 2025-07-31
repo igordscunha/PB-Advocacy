@@ -34,11 +34,11 @@ export const QuemSomos = () => {
 
             <Linha/>
 
-            <div className="block lg:flex lg:items-center pb-12">
+            <div className="block lg:flex lg:justify-center lg:items-center pb-24">
                 <div>
                     <img className="mt-12 mb-3 rounded-3xl md:w-2/3 md:shadow-lg" src={socios[2].imagem2} alt={socios[2].nome}/>
                 </div>
-                <div className="lg:w-4/5">
+                <div className="lg:w-1/2">
                     <h4 className="text-left text-2xl font-semibold">{socios[2].nome}</h4>
                     <p className="text-left pb-5">{socios[2].oab}</p>
                     <p className="text-left pb-5 text-lg font-medium">Áreas de Atuação: {socios[2].areaatuacao}</p>

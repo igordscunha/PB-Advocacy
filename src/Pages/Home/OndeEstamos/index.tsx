@@ -2,8 +2,10 @@ import { Mapa } from "Components/Mapa"
 
 export const OndeEstamos = () => {
     return(
-        <section className="bg-azul-pb p-12">
-            <h2 className="text-4xl font-semibold ml-6 md:ml-16 w-fit text-white border-b-2 border-amber-400 mb-8 md:text-7xl">Onde Estamos</h2>
+        <section className="bg-gradient-to-b from-azul-pb to-azul-claro p-12 md:px-40">
+            <div className="flex items-center justify-center md:block">
+                <h2 className="text-4xl font-semibold w-fit text-white border-b-2 border-amber-400 mb-8 md:text-7xl">Onde Estamos</h2>
+            </div>
             
             {/* ##### MOBILE ##### */}
             <div className="md:hidden">

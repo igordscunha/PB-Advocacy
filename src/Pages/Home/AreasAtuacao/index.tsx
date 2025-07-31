@@ -1,6 +1,6 @@
 export const AreasAtuacao = () => {
     return(
-        <section className="bg-azul-pb p-12">
+        <section className="bg-gradient-to-b from-azul-pb to-azul-claro py-12 md:px-40">
             <div className="flex justify-center">
                 <h2 className="text-4xl font-semibold w-fit text-white border-b-2 border-amber-400 md:text-7xl">Áreas de Atuação</h2>
             </div>
