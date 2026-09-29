@@ -1,9 +1,12 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './Pages/Home';
+import { MemoryRouter } from 'react-router-dom';
+import Home from './Pages/Home';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renderiza o título principal da home', () => {
+  render(
+    <MemoryRouter>
+      <Home />
+    </MemoryRouter>
+  );
+  expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/advocacia estratégica/i);
 });
